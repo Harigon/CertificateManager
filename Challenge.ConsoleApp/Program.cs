@@ -8,12 +8,11 @@ namespace Challenge.ConsoleApp
     public class Program
     {
 
-
         public static void Main(string[] args)
         {
             if(args.Length < 2)
             {
-                Console.WriteLine("Error: Wrong arguments");
+                Console.WriteLine("Error: Wrong number of arguments");
                 return;
             }
 
